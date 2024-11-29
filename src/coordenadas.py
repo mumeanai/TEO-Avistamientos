@@ -18,6 +18,8 @@ def a_radianes(coordenadas):
     '''
     pass
 
+def distacia(coordenada1, coordenada2):
+    return sqrt((coordenada1.latitud-coordenada2.latitud)**2+(coordenada1.longitud-coordenada2.longitud)**2)
 
 def distancia_harvesine(coordenadas1, coordenadas2):
     '''Devuelve la distancia de harvesine entre dos coordenadas
